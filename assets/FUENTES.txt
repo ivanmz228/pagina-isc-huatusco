@@ -1,0 +1,5 @@
+﻿Fuentes de los logotipos oficiales (consultadas el 23 de octubre de 2026):
+- Escudo ITSH: https://huatusco.tecnm.mx/media/templates/site/tecnm/images/logos/itsh.png
+- TecNM: https://huatusco.tecnm.mx/media/templates/site/tecnm/images/logos/tecnm.jpg
+- ISC: https://huatusco.tecnm.mx/images/202303_Imagotipos/MesaTrabajo480/4_MT_Ing_Sistemas.png
+El QR se presenta mediante un recorte SVG de cara-2.png, sin regenerar ni cambiar sus módulos.

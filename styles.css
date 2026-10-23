@@ -3,3 +3,30 @@
 @media(max-width:1200px){.facts,footer{margin-left:40px;margin-right:40px}.two{gap:45px}.hero-copy{padding:55px 35px}}
 @media(max-width:750px){header{padding:15px 22px;flex-wrap:wrap;gap:14px}.brand img{width:45px;height:45px}.brand small{font-size:9px}nav{width:100%;justify-content:space-between;gap:10px;font-size:11px}.nav-contact{padding:7px 10px}.hero{grid-template-columns:1fr}.hero-copy{padding:43px 24px}.hero h1{font-size:46px;letter-spacing:-2px}.hero-copy>p:not(.eyebrow){font-size:14px}.hero-image>img{height:auto;aspect-ratio:1.1;object-fit:cover;object-position:top}.caption{left:20px;right:20px;bottom:20px}.caption strong{font-size:21px}.facts{margin:0 22px;padding:24px 0;gap:12px}.facts>div{padding:0 8px 0 0}.facts strong{font-size:19px}.facts span{font-size:10px;line-height:1.5}.section{padding:58px 24px}.two,.benefits{grid-template-columns:1fr;gap:30px}.eyebrow{font-size:9px;letter-spacing:1.5px;margin-bottom:18px}h2{font-size:35px;letter-spacing:-1.4px}.prose{padding:0;font-size:14px}.tags{gap:7px}.tags span{padding:7px 10px;font-size:11px}.learning{padding-top:0}.project-photo{max-width:450px;margin:auto;width:100%}.intro{font-size:14px}.benefits{margin-top:30px}.campus{min-height:360px}.campus img{object-position:center 65%}.benefits h3{font-size:19px}.support h3{font-size:16px}.degree{gap:30px}.awards{grid-template-columns:1fr;gap:25px}.award-logo{height:70px}.award-logo img{max-height:65px}.awards ul{font-size:13px}.achievement-heading>p{max-width:none}.details>div,.details>a{font-size:13px}footer{margin:0 24px;padding:25px 0;flex-wrap:wrap;gap:20px}footer img{width:115px}footer p{font-size:10px}footer a{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Imágenes originales: proporciones completas y fondos neutros. */
+:root{--navy:#0b1384;--blue:#0b1384;--orange:#ff6b1f;--ink:#171717;--paper:#f5f5f7}
+.hero{align-items:center}
+.hero-image{background:#fff;align-self:center;aspect-ratio:540 / 451;overflow:hidden}
+.hero-image>img{display:block;width:100%;height:auto;max-width:none;aspect-ratio:auto;object-fit:initial;object-position:initial}
+.project-photo{background:#fff;border-radius:0;overflow:visible}
+.project-photo img{width:100%;height:auto;object-fit:contain}
+.campus{min-height:0;overflow:visible;border-radius:0;align-self:start;background:white}
+.campus img{position:static;width:100%;height:auto;object-fit:contain;object-position:center}
+.campus:after{display:none}
+.award-logo{background:white;min-height:110px;height:auto;padding:15px;justify-content:center;border:1px solid var(--line);border-radius:4px}
+.award-logo img{max-width:100%;max-height:85px;width:auto;height:auto;object-fit:contain}
+.brand img,.mark,footer img{background:#fff;object-fit:contain}
+.plan{background:#fff}
+.qr{width:240px;max-width:100%;image-rendering:auto;padding:12px;background:white}
+.achievement-heading{grid-template-columns:1fr}
+.hero h1 span,.schedule em{color:#ff9a66}
+@media(max-width:750px){.hero-image{width:100%;aspect-ratio:540 / 451}.hero-image>img{height:auto;aspect-ratio:auto;object-fit:initial;object-position:initial}.campus{max-width:420px;margin:auto}.campus img{object-position:center}.award-logo{min-height:110px}}
+h1,h2,h3{overflow-wrap:anywhere}.two>*{min-width:0}.hero-copy{min-width:0}
+/* Identidad institucional: archivos oficiales, sin filtros ni recoloreado. */
+header{gap:24px}.brand{max-width:540px;flex:1;font-size:15px}.brand>span{max-width:400px;line-height:1.45}.brand img{width:72px;height:72px;flex-shrink:0}.brand small{margin-top:5px}.mark{width:100px;height:auto}.qr{width:280px;height:auto}.hero-copy>p:not(.eyebrow){font-weight:600;letter-spacing:.5px}
+@media(max-width:1000px){header{flex-wrap:wrap}.brand{flex-basis:100%;max-width:none}header nav{margin-left:auto}}
+@media(max-width:750px){.brand{font-size:12px}.brand img{width:60px;height:60px}.brand>span{max-width:290px}.brand small{font-size:10px}.qr{width:270px}}
+/* Original proporcionado: imagen completa sobre blanco, sin recorte. */
+.project-photo{background:#fff;overflow:visible;border-radius:0;align-self:center}
+.project-photo img{display:block;width:100%;height:auto;max-width:480px;margin:0 auto;object-fit:contain}
