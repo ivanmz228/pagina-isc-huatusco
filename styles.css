@@ -1,0 +1,9 @@
+﻿* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; }
+main { width: 100%; }
+.cara { display: block; width: 100%; height: auto; margin: 0; }
+@media print {
+  @page { size: 11in 8.5in; margin: 0; }
+  .cara { width: 11in; height: 8.5in; break-after: page; page-break-after: always; }
+  .cara:last-child { break-after: auto; page-break-after: auto; }
+}
